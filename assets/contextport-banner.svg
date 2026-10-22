@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">ContextPort — Portable AI context, private by default</title>
+  <desc id="desc">A midnight-blue and violet open-source project banner showing a secure, local-first path from conversation records to a clean, portable document.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081124"/>
+      <stop offset="0.52" stop-color="#111936"/>
+      <stop offset="1" stop-color="#221448"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#56E8DF"/>
+      <stop offset="0.53" stop-color="#8C9BFF"/>
+      <stop offset="1" stop-color="#CA83FF"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5DE4DC" stop-opacity="0.6"/>
+      <stop offset="0.55" stop-color="#A89AFF"/>
+      <stop offset="1" stop-color="#BE89FF" stop-opacity="0.65"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#7F63FF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#7F63FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#B7CAFF" stroke-width="0.65" opacity="0.11"/>
+    </pattern>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#030817" flood-opacity="0.48"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#grid)"/>
+  <ellipse cx="1040" cy="165" rx="420" ry="280" fill="url(#glow)"/>
+  <path d="M0 306C249 263 377 390 630 337S1066 260 1280 304" fill="none" stroke="#7B80DB" stroke-width="1.3" opacity="0.17"/>
+  <path d="M120 0L0 120M1280 100L1135 245" fill="none" stroke="#C6B5FF" opacity="0.12" stroke-width="2"/>
+
+  <!-- Brand mark: two parallel context streams passing through a single safe port. -->
+  <g transform="translate(70 63)" filter="url(#shadow)">
+    <rect width="54" height="54" rx="17" fill="#1D2B46" stroke="#7FA2E6" stroke-opacity="0.5"/>
+    <path d="M14 19H29C34 19 36 22 36 27V34M40 35H25C20 35 18 32 18 27V20" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M32 30L36 34L40 30M14 24L18 20L22 24" fill="none" stroke="#B2CFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="138" y="100" fill="#C5D4F9" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="700" font-size="15" letter-spacing="3.2">OPEN SOURCE / LOCAL FIRST</text>
+
+  <text x="70" y="191" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800" font-size="76" letter-spacing="-3">Context<tspan fill="url(#accent)">Port</tspan></text>
+  <text x="73" y="236" fill="#CAD7F5" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="400" font-size="24">Portable AI context. Private by default.</text>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.1">
+    <rect x="70" y="272" width="118" height="37" rx="18.5" fill="#122B39" stroke="#54D7CB" stroke-opacity="0.5"/>
+    <circle cx="90" cy="290.5" r="4" fill="#5DE4D3"/>
+    <text x="103" y="295" fill="#A3F4EA">OFFLINE</text>
+    <rect x="200" y="272" width="149" height="37" rx="18.5" fill="#202542" stroke="#A49BFF" stroke-opacity="0.5"/>
+    <circle cx="220" cy="290.5" r="4" fill="#A69CFF"/>
+    <text x="233" y="295" fill="#D6D0FF">NO API KEYS</text>
+    <rect x="361" y="272" width="151" height="37" rx="18.5" fill="#28203F" stroke="#C98FF4" stroke-opacity="0.5"/>
+    <circle cx="381" cy="290.5" r="4" fill="#D4A1FF"/>
+    <text x="394" y="295" fill="#E8D0FF">OPEN SOURCE</text>
+  </g>
+
+  <!-- Source cards -->
+  <g filter="url(#shadow)">
+    <g transform="translate(740 97) rotate(-7 100 100)">
+      <rect width="170" height="195" rx="16" fill="#192943" stroke="#516D9F" stroke-width="1.5"/>
+      <rect x="17" y="18" width="64" height="21" rx="10.5" fill="#2B4561"/>
+      <text x="29" y="33" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#9DDCD8" letter-spacing="1">INPUT</text>
+      <rect x="19" y="57" width="123" height="8" rx="4" fill="#57708F"/>
+      <rect x="19" y="79" width="88" height="8" rx="4" fill="#57708F" opacity="0.67"/>
+      <rect x="19" y="101" width="111" height="8" rx="4" fill="#57708F" opacity="0.75"/>
+      <rect x="19" y="123" width="74" height="8" rx="4" fill="#57708F" opacity="0.55"/>
+      <rect x="19" y="153" width="131" height="22" rx="7" fill="#3A324C"/>
+      <circle cx="32" cy="164" r="4" fill="#FAAA9B"/>
+      <rect x="44" y="160" width="88" height="7" rx="3.5" fill="#AC859E"/>
+    </g>
+  </g>
+
+  <!-- Secure transform port -->
+  <path d="M887 184H955M1050 184H1094" fill="none" stroke="url(#accentLine)" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 9"/>
+  <g filter="url(#shadow)">
+    <circle cx="1003" cy="184" r="57" fill="#202648" stroke="#A3A2FF" stroke-width="2"/>
+    <circle cx="1003" cy="184" r="45" fill="none" stroke="#6F78BD" stroke-opacity="0.33" stroke-width="1" stroke-dasharray="3 6"/>
+    <path d="M1003 150L1028 160V181C1028 200 1019 213 1003 221C987 213 978 200 978 181V160Z" fill="#2A4C65" stroke="url(#accent)" stroke-width="2.6"/>
+    <path d="M993 184L1001 192L1016 175" fill="none" stroke="#76F3DA" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Portable output -->
+  <g filter="url(#shadow)">
+    <g transform="translate(1095 87) rotate(6 72 103)">
+      <rect width="140" height="210" rx="16" fill="#24294E" stroke="#948FE0" stroke-width="1.5"/>
+      <rect x="17" y="19" width="87" height="22" rx="11" fill="#3D3865"/>
+      <text x="28" y="34" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#DAC7FF" letter-spacing="1">PORTABLE</text>
+      <rect x="19" y="62" width="101" height="7" rx="3.5" fill="#7479BD"/>
+      <path d="M22 92L27 97L37 85M22 123L27 128L37 116M22 154L27 159L37 147" fill="none" stroke="#6AE4D0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="47" y="90" width="72" height="7" rx="3.5" fill="#827CBB"/>
+      <rect x="47" y="121" width="61" height="7" rx="3.5" fill="#827CBB"/>
+      <rect x="47" y="152" width="67" height="7" rx="3.5" fill="#827CBB"/>
+      <rect x="19" y="180" width="102" height="10" rx="5" fill="#386A76"/>
+    </g>
+  </g>
+</svg>
