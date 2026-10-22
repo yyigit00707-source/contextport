@@ -1,0 +1,2 @@
+{"kind":"decision","project":"demo","content":"Use a local-only export format."}
+{"kind":"lesson","project":"demo","content":"Warn when a parser encounters an unsupported record."}
