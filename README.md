@@ -1,3 +1,5 @@
+![ContextPort — Portable AI context. Private by default.](assets/contextport-banner.svg)
+
 # ContextPort
 
 > Export selected coding-assistant context into portable, reviewable files — locally and with secret redaction on by default.
